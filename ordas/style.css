@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-image: url(baickground.png);
+}
+.resume-container {
+    background: #fff;
+    padding: 20px;
+    width: 1500px;
+    height: 1500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 30;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+    font-size: 300%;
+}
+
+.contact-info {
+    text-align: center;
+    font-size: 30px;
+}
+
+.section {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    color: #444;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+;
+}
+
+ul li {
+    background: url('https://cdn-icons-png.flaticon.com/16/846/846551.png') no-repeat left center;
+    padding-left: 25px;
+    margin-bottom: 5px;
+  
+}
+
+.job h3 {
+    margin: 5px 0;
+    color: #555;
+    font-size: 150%;
+}
+
+.job p {
+    font-size: 14px;
+    color: #777;
+    font-size: 80%;
+}
+.header2 {
+    font-size: 450%;
+}
