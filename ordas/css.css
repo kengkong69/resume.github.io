@@ -1,0 +1,100 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Logo Section */
+.logo h1 {
+    color: #1877f2;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.logo p {
+    font-size: 18px;
+    color: #606770;
+    margin-bottom: 20px;
+}
+
+/* Login Box */
+.login-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Input Fields */
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Login Button */
+.login-box button {
+    width: 100%;
+    background-color: #1877f2;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-box button:hover {
+    background-color: #166fe5;
+}
+
+/* Forgot Password */
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Create New Account Button */
+.create-account {
+    background-color: #42b72a;
+    color: white;
+    margin-top: 15px;
+}
+
+.create-account:hover {
+    background-color: #36a420;
+}
+
+/* Horizontal Line */
+hr {
+    margin: 15px 0;
+    border: none;
+    border-top: 1px solid #dddfe2;
+}
